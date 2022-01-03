@@ -4,12 +4,13 @@ export default function usandoTitulo(){
     return (
         <>
             <Titulo 
-            principal = "Página de Cadastro"
-            secundario = "Incluir, alterar e excluir coisas!"
+                principal = "Página de Cadastro"
+                secundario = "Incluir, alterar e excluir coisas!"
             />
             <Titulo 
-            principal = "Página de login"
-            secundario = "Informe seu e-mail e senha"
+                principal = "Página de login"
+                secundario = "Informe seu e-mail e senha"
+                pequeno = {true}
             />
         </>
     )
